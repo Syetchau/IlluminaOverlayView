@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OverlayView">
+        <attr name="overlayBackgroundColor" format="color" />
+        <attr name="overlayLineColor" format="color" />
+        <attr name="overlayLineWidth" format="dimension" />
+        <attr name="overlayLineLength" format="dimension"/>
+        <attr name="overlayTextColor" format="color" />
+        <attr name="overlayTextSize" format="dimension" />
+        <attr name="overlayCornerRadius" format="dimension" />
+        <attr name="overlayLineSpacingWithText" format="dimension"/>
+        <attr name="highlightRadius" format="dimension"/>
+        <attr name="highlightColor" format="dimension"/>
+        <attr name="marginStartFromOverlayLine" format="dimension"/>
+        <attr name="marginEndFromOverlayLine" format="dimension"/>
+    </declare-styleable>
+</resources>
