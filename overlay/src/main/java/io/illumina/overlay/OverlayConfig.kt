@@ -14,12 +14,8 @@ import android.view.View
  * val configs = listOf(
  *     Config(
  *         view = binding.buttonNext,
- *         textRes = R.string.tutorial_next,
- *         lineLengthRes = R.dimen.overlay_line_length,
- *         viewRadiusRes = R.dimen.overlay_circle_radius,
- *         overlayItemPosition = Position.Top,
- *         overlayShape = Shape.Circle,
- *         overlayTextAlignment = Layout.Alignment.ALIGN_CENTER
+ *         text = "This is Fab",
+ *         overlayAnchorPosition = Position.Top
  *     )
  * )
  * overlayView.configs = configs.toTypedArray()
