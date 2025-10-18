@@ -43,11 +43,11 @@ dependencies {
 }
 ```
 
-Or via Version Catalog (libs.versions.toml):
+Or via Version Catalog `libs.versions.toml`:
 
 ```libs.versions.toml
 [libraries]
-illumina-overlay = { group = "com.github.Syetchau", name = "IlluminaOverlayView", version = "release_1.0.0" }
+illumina-overlay = { group = "com.github.Syetchau", name = "IlluminaOverlayView", version = "1.0.0" }
 ```
 
 ```gradle
@@ -135,15 +135,13 @@ overlayView.apply {
 <table>
 <tr>
 <td align="center">
-  <img src="asset/screenshots/circle.png" width="250" alt="Top Position" /><br><br>
+  <img src="asset/screenshots/top.png" width="250" alt="Top Position" /><br><br>
   <b>Top</b>
 </td>
 <td align="center">
   <img src="asset/screenshots/bottom.png" width="250" alt="Bottom Position" /><br><br>
   <b>Bottom</b>
 </td>
-</tr>
-<tr>
 <td align="center">
   <img src="asset/screenshots/start.png" width="250" alt="Start Position" /><br><br>
   <b>Start</b>
@@ -155,7 +153,14 @@ overlayView.apply {
 </tr>
 </table>
 
+## 🤝 Contributing
 
-📝 License
+Contributions are always welcome!
+Please open issues or pull requests for improvements and bug fixes.
+
+---
+
+## 📝 License
 
 MIT License © 2025 Syet Chau
+
