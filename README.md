@@ -48,7 +48,9 @@ Or via Version Catalog (libs.versions.toml):
 ```libs.versions.toml
 [libraries]
 illumina-overlay = { group = "com.github.Syetchau", name = "IlluminaOverlayView", version = "release_1.0.0" }
+```
 
+```gradle
 dependencies {
     implementation(libs.illumina.overlay)
 }
@@ -115,15 +117,15 @@ overlayView.apply {
 <table>
 <tr>
 <td align="center">
-  <img src="assets/screenshots/circle.png" width="250" alt="Circle Highlight" /><br><br>
+  <img src="asset/screenshots/circle.png" width="250" alt="Circle Highlight" /><br><br>
   <b>Circle</b>
 </td>
 <td align="center">
-  <img src="assets/screenshots/rectangle.png" width="250" alt="Rectangle Highlight" /><br><br>
+  <img src="asset/screenshots/rectangle.png" width="250" alt="Rectangle Highlight" /><br><br>
   <b>Rectangle</b>
 </td>
 <td align="center">
-  <img src="assets/screenshots/rounded_rectangle.png" width="250" alt="Rounded Rectangle Highlight" /><br><br>
+  <img src="asset/screenshots/rounded_rectangle.png" width="250" alt="Rounded Rectangle Highlight" /><br><br>
   <b>Rounded Rectangle</b>
 </td>
 </tr>
@@ -133,21 +135,21 @@ overlayView.apply {
 <table>
 <tr>
 <td align="center">
-  <img src="assets/screenshots/circle.png" width="250" alt="Top Position" /><br><br>
+  <img src="asset/screenshots/circle.png" width="250" alt="Top Position" /><br><br>
   <b>Top</b>
 </td>
 <td align="center">
-  <img src="assets/screenshots/bottom.png" width="250" alt="Bottom Position" /><br><br>
+  <img src="asset/screenshots/bottom.png" width="250" alt="Bottom Position" /><br><br>
   <b>Bottom</b>
 </td>
 </tr>
 <tr>
 <td align="center">
-  <img src="assets/screenshots/start.png" width="250" alt="Start Position" /><br><br>
+  <img src="asset/screenshots/start.png" width="250" alt="Start Position" /><br><br>
   <b>Start</b>
 </td>
 <td align="center">
-  <img src="assets/screenshots/end.png" width="250" alt="End Position" /><br><br>
+  <img src="asset/screenshots/end.png" width="250" alt="End Position" /><br><br>
   <b>End</b>
 </td>
 </tr>
