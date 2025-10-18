@@ -33,33 +33,40 @@ allprojects {
         maven { url 'https://jitpack.io' }
     }
 }
+```
 
-Step 2: Add the dependency in your module build.gradle:
+**Step 2:** Add the dependency in your module `build.gradle`:
 
+```gradle
 dependencies {
     implementation 'com.github.Syetchau:IlluminaOverlayView:1.0.0'
 }
+```
 
 Or via Version Catalog (libs.versions.toml):
 
+```libs.versions.toml
 [libraries]
 illumina-overlay = { group = "com.github.Syetchau", name = "IlluminaOverlayView", version = "release_1.0.0" }
 
 dependencies {
     implementation(libs.illumina.overlay)
 }
+```
 
+## 🛠 Usage
+**Step 1:** Add the OverlayView in your layout:
 
-🛠 Usage
-Step 1: Add the OverlayView in your layout:
-
+```xml
 <io.illumina.overlay.OverlayView
     android:id="@+id/overlayView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"/>
+```
 
-Step 2: Configure overlays in code:
+**Step 2:** Configure overlays in code:
 
+```kotlin
 val configs = listOf(
     OverlayConfig(
         view = binding.buttonNext,
@@ -72,11 +79,11 @@ val configs = listOf(
         overlayAnchorPosition = Position.End
     )
 )
-
 overlayView.configs = configs.toTypedArray()
+```
+**Step 3:** Customize colors, radius, and spacing programmatically:
 
-Step 3: Customize colors, radius, and spacing programmatically:
-
+```kotlin
 overlayView.apply {
     overlayBackgroundColor = Color.parseColor("#80000000")
     highlightColor = Color.YELLOW
@@ -84,11 +91,12 @@ overlayView.apply {
     overlayTextColor = Color.WHITE
     highlightRadius = 16f
 }
+```
 
-🔧 Attributes (XML)
+## 🔧 Attributes (XML)
 
 | Attribute                    | Description                           | Default                |
-| ---------------------------- | ------------------------------------- | ---------------------- |
+|------------------------------|---------------------------------------|------------------------|
 | `overlayBackgroundColor`     | Background dim color                  | Black with 80% opacity |
 | `overlayLineColor`           | Color of line connecting text         | White                  |
 | `overlayTextColor`           | Tooltip text color                    | White                  |
