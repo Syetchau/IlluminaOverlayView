@@ -135,7 +135,7 @@ overlayView.apply {
 <table>
 <tr>
 <td align="center">
-  <img src="asset/screenshots/top.png" width="250" alt="Top Position" /><br><br>
+  <img src="asset/screenshots/circle.png" width="250" alt="Top Position" /><br><br>
   <b>Top</b>
 </td>
 <td align="center">
